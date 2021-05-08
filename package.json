@@ -1,16 +1,24 @@
 {
-  "name": "GitProfiler/love_tyagi",
+  "name": "gitprofiler",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "first setup of npm package & user have to give just gitProfile name, this code will give you git profile data.",
+  "main": "main.js",
   "dependencies": {
     "axios": "^0.21.1",
     "cli-table": "^0.3.6"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovetyagi-17/gitCliProfiler.git"
+  },
+  "author": "Love Tyagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovetyagi-17/gitCliProfiler/issues"
+  },
+  "homepage": "https://github.com/lovetyagi-17/gitCliProfiler#readme"
 }
